@@ -43,3 +43,11 @@
     display: none;
   }
 }
+
+.Header button:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
