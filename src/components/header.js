@@ -39,7 +39,7 @@ class Header extends React.Component {
       amount,
     }
 
-    fetch('http://localhost:9000/stripe-charge', {
+    fetch(`${process.env.API_URL}/stripe-charge`, {
       method: 'POST',
       body: JSON.stringify(bodyObject),
     })
