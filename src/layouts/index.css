@@ -1,5 +1,6 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
@@ -7,13 +8,13 @@ body {
 }
 
 a {
-  color: #5334F5;
+  color: #5334f5;
   text-decoration: none;
   font-weight: 600;
 }
 
 .Hero {
-  background: url(../images/wallpaper3.jpg);
+  background: url(/images/wallpaper3.jpg);
   height: 920px;
   background-size: cover;
   background-position: center;
@@ -53,7 +54,7 @@ a {
   font-weight: 600;
   color: white;
   text-transform: uppercase;
-  background: rgba(0,0,0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   padding: 9px 20px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
@@ -95,7 +96,7 @@ a {
   bottom: 0;
   left: 0;
 }
- 
+
 .Hero .Logos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -115,7 +116,7 @@ a {
   font-size: 60px;
   text-align: center;
   font-weight: 700;
-  background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
+  background: linear-gradient(104deg, #050a27 0%, #4a548c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
