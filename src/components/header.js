@@ -1,13 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
-import logo from '../images/logo-designcode.svg'
-
 import './Header.css'
 
 class Header extends React.Component {
   constructor(props) {
     super(props)
+
     this.state = {
       hasScrolled: false,
     }
@@ -17,7 +15,7 @@ class Header extends React.Component {
     window.addEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll = () => {
+  handleScroll = event => {
     const scrollTop = window.pageYOffset
 
     if (scrollTop > 50) {
@@ -34,7 +32,7 @@ class Header extends React.Component {
       >
         <div className="HeaderGroup">
           <Link to="/">
-            <img width="30" src={logo} />
+            <img src="/images/logo-designcode.svg" width="30" />
           </Link>
           <Link to="/courses">Courses</Link>
           <Link to="/downloads">Downloads</Link>
